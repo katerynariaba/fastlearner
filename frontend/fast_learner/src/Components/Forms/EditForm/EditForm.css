@@ -1,0 +1,78 @@
+.edit-form .wrap-input{
+    position: relative;
+    margin-bottom: 0;
+}
+
+.edit-form .form-control{
+    font-size: 15px;
+    color: #666666;
+    background: #e6e6e6;
+    border-radius: 25px;
+    padding: 0 30px 0 68px;
+}
+
+div.edit-btn-group .form-group{
+    margin-top: 50px;
+}
+
+.edit-btn-group{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.edit-btn-group .btn.edit-btn{
+    font-size: 15px;
+    color: white;
+    width: 30%;
+    height: 40px;
+    border-radius: 25px;
+    background: #fa970c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    border-color: #fa970c;
+}
+
+.edit-btn-group .btn.edit-btn:hover{
+    background-color: #ffbb5c;
+    border-color: #fa970c;
+}
+
+.edit-btn-group .btn.edit-btn:active{
+    background-color: #ffbb5c;
+    border-color: #fa970c;
+}
+
+
+.edit-btn-group .btn.cancel-btn{
+    font-size: 15px;
+    line-height: 1.5;
+    color: #fa970c;
+    width: 10%;
+    height: 40px;
+    border-radius: 25px;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    transition: all 0.4s;
+    border-color: none;
+}
+
+.error-message {
+    color: #FF6565;
+    margin-left: 25px;
+    height: 1em;
+    position: absolute;
+    font-size: .8em;
+}
+
+#input .error .form-control{
+    border: 2px solid #FF6565;
+    color: #666666;
+}

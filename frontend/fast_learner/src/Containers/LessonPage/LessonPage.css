@@ -1,0 +1,13 @@
+div.lesson-page.container-fluid{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.video-lesson div{
+    margin-top: 20px;
+}
+
+.lesson-desc{
+    padding-top: 20px;
+    margin-left: 150px;
+}

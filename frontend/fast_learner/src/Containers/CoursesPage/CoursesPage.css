@@ -1,0 +1,35 @@
+#courses-wrapper {
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+}
+
+#courses-wrapper .container-fluid {
+    padding: 0px;
+}
+
+header {
+    display: block;
+}
+
+#header{
+    min-height: 100px;
+}
+
+.site-inner {
+    height: 100%;
+}
+
+#courses-content {
+    min-height: 100%;
+}
+
+div #courses-content .container-courses{
+    width: 80%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}

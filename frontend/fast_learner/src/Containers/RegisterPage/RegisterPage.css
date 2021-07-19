@@ -1,0 +1,49 @@
+.limiter{
+    width: 100%;
+    margin: 0 auto;
+    background: #f6f6e9 url('../../Assets/Images/login-register-background.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.container-register{
+    width: 100%;  
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.wrap-register{
+    width: 960px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 60px 130px 50px 110px;
+}
+
+.register-pic {
+    width: 316px;
+    float: left;
+    position: relative;
+}
+  
+.register-pic img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.register-form{
+    width: 290px;
+    float:left;
+}

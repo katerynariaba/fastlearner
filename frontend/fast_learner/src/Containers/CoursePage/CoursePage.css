@@ -1,0 +1,89 @@
+#course-content img.course-image{
+    border-radius: 10px;
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.course-info-block {
+    margin-top: 20px;
+}
+
+#course-content .course-title h2{
+    font-weight: 600;
+    font-family: "Roboto";
+    font-size: 30px;
+    color: #fa970c;
+}
+
+#course-content .course-info h3{
+    font-weight: 400;
+    font-family: "Roboto";
+    font-size: 20px;
+    color: rgb(61, 60, 60);
+    padding: 5px;
+}
+
+#course-content .course-description h2{
+    font-size: 18px;
+	font-weight: 350;
+	font-family: "Roboto";
+    color: rgb(61, 60, 60);
+	margin: 30px 30px 30px 5px;
+}
+
+.content-item {
+    padding: 5px 0;
+	background-color:#FFFFFF;
+}
+
+.content-item.grey {
+	background-color:#F0F0F0;
+	padding :50px 0;
+	height:100%;
+}
+
+.content-item h2 {
+	font-weight:700;
+	font-size:35px;
+	line-height:45px;
+	text-transform:uppercase;
+	margin:20px 0;
+}
+
+.content-item h3 {
+	font-weight:400;
+	font-size:20px;
+	color:#555555;
+	margin:10px 0 15px;
+	padding:0;
+}
+
+.content-headline {
+	height:1px;
+	text-align:center;
+	margin:20px 0 70px;
+}
+
+.content-headline h2 {
+	background-color:#FFFFFF;
+	display:inline-block;
+	margin:-20px auto 0;
+	padding:0 20px;
+}
+
+.grey .content-headline h2 {
+	background-color:#F0F0F0;
+}
+
+.content-headline h3 {
+	font-size:14px;
+	color:#AAAAAA;
+	display:block;
+}
+
+#comments {
+    box-shadow: 0 -1px 6px 1px rgba(0,0,0,0.1);
+	background-color:#FFFFFF;
+}

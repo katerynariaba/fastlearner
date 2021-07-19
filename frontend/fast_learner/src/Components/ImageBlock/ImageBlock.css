@@ -1,0 +1,12 @@
+.image-block-jumbotron.jumbotron{
+    /*background: #f6f6e9 url('../../Assets/Images/main78.jpeg') no-repeat center center;*/
+    background-size: cover;
+    height: 100px;
+    padding: 0;
+    border-radius: 0em;
+    margin:0;
+    border-bottom: 2px solid #FDB44B;
+    background-color: rgba(255,255,255,1);
+    min-height: 60px;
+    box-shadow: 0 0 10px #FDB44B;
+}

@@ -1,0 +1,88 @@
+#login-form .login-form-title{
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#login-form .login-form .wrap-input{
+    position: relative;
+    margin-bottom: 0;
+}
+
+#login-form .login-form .form-control{
+    font-size: 15px;
+    color: #666666;
+    width: 100%;
+    background: #e6e6e6;
+    height: 50px;
+    border-radius: 25px;
+    padding: 0 30px 0 68px;
+}
+
+div.login-btn-group .form-group{
+    margin-top: 50px;
+}
+
+.login-btn-group{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.login-btn-group .btn{
+    font-size: 15px;
+    color: white;
+    text-transform: uppercase;
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    background: #fa970c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+    border-color: #fa970c;
+}
+
+.login-button-group .btn{
+    color: #fa970c;
+}
+
+.login-button-group .btn:hover{
+    color: #fa970c;
+}
+
+.login-btn-group .btn:hover{
+    background-color: #ffbb5c;
+    border-color: #fa970c;
+}
+
+.login-btn-group .btn:focus{
+    background-color: #ffbb5c;
+    border-color: #fa970c;
+}
+
+.login-button-group{
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.login-button-group p{
+    margin-top: 5px;
+}
+
+.error-message {
+    color: #FF6565;
+    margin-left: 25px;
+    height: 1em;
+    position: absolute;
+    font-size: .8em;
+}
+
+.error.form-control {
+    border: 2px solid #FF6565;
+    color: #666666;
+}

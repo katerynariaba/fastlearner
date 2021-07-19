@@ -1,0 +1,25 @@
+.card.course-recom-card{
+    text-align: center;
+}
+
+.card.course-recom-card:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.course-recom-card img.card-img-top{
+    border-radius: 10px;
+    height: 100px;
+    width: auto;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.recom-course-title{
+    color: #004C70;
+}
+.recom-course-title:hover{
+    color: #004C70;
+}
+.course-recom-card a:hover{
+    text-decoration: none;
+}

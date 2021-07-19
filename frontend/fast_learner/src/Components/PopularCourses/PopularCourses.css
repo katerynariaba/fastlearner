@@ -1,0 +1,17 @@
+#popular-courses div{
+    padding-right: 15px;
+}
+
+#popular-courses h2{
+    text-transform: uppercase;
+    margin: auto;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 24px;
+    padding: 7px 35px;
+    margin-bottom: 30px;
+    background: #fa970c;
+    color: white; 
+    text-align: center;
+    width: 33%;
+}

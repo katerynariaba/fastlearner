@@ -1,0 +1,14 @@
+.wrap-input{
+    margin-bottom: 10px;
+}
+
+.symbol-input {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 12px;
+    height: 100%;
+    padding-left: 35px;
+    color: #666666;
+}

@@ -1,0 +1,23 @@
+.center{
+    margin: auto;
+    width: 25%;
+    padding: 10px;
+}
+
+#search-input .input-group-append{
+    background-color: #fa970c;
+    border-color: #fa970c;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+#search-input .input-group .input-group-append .btn{
+    border-color: #fa970c;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+#search-input .input-group .input-group-append .btn:hover{
+    background-color: #ffbb5c;
+    border-color: #ffbb5c;
+}

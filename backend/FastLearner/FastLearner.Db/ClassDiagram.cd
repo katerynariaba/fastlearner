@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FastLearner.Db.DomainModels.User">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAEAAACAgACAAUAAAEAEACAAAEAACAAAZABAAIAg=</HashCode>
+      <FileName>DomainModels\User.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Role" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FastLearner.Db.DomainModels.Answer">
+    <Position X="9.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAgAAAAAAAAAAAAAAAAAAAAAEAAIAAAAAAAA=</HashCode>
+      <FileName>DomainModels\Answer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Question" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FastLearner.Db.DomainModels.Question">
+    <Position X="7.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAgAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAg=</HashCode>
+      <FileName>DomainModels\Question.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Questionnaire" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FastLearner.Db.DomainModels.Questionnaire">
+    <Position X="7.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAEAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>DomainModels\Questionnaire.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FastLearner.Db.DomainModels.Comment">
+    <Position X="3" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADAAAAAgAAAAAAAIAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainModels\Comment.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="User" />
+      <Property Name="Course" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FastLearner.Db.DomainModels.Course">
+    <Position X="4.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAASACAACAAiAMAAgABAAAAAAAAAABAAAAAAAAAAKAA=</HashCode>
+      <FileName>DomainModels\Course.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Category" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FastLearner.Db.DomainModels.Category">
+    <Position X="4.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAgAEAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainModels\Category.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FastLearner.Db.DomainModels.Lesson">
+    <Position X="7.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAgAEAAAIAAIAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>DomainModels\Lesson.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Questionnaire" />
+      <Property Name="Course" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FastLearner.Db.DomainModels.Result">
+    <Position X="9.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADAAAAAAAAAAIAAAAAAAAAAAAAAAQAAAAAAAAAAAg=</HashCode>
+      <FileName>DomainModels\Result.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Questionnaire" />
+      <Property Name="User" />
+    </ShowAsAssociation>
+  </Class>
+  <Enum Name="FastLearner.Db.Enums.UserRole">
+    <Position X="0.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\UserRole.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

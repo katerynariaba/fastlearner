@@ -1,0 +1,9 @@
+div .profile-page{
+    background: #f6f6e9 url('../../Assets/Images/profile-background.jpg') no-repeat center center;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}

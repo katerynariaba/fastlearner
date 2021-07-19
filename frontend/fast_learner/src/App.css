@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("./Assets/Fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Playfair_Display";
+    src: url("./Assets/Fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf") format("truetype");
+}
+
+/*alert message*/
+#root .alert {
+    position: fixed;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+#root button.close {
+    -webkit-appearance: none;
+    padding: 0;
+    padding-left: 5px;
+    cursor: pointer;
+    background: 0 0;
+    border: 0
+}
+
+#root .close {
+    font-size: 17px;
+    color: #fff;
+    opacity: 0.9;
+    font-weight: bold
+}
+
+#root .close:hover {
+    font-size: 17px;
+    color: gray;
+    opacity: 0.9;
+    font-weight: bold
+}
+
+#root .alert-success {
+    background-color: #09c97f;
+    border: 2px solid #09c97f
+}
+
+#root .alert-danger {
+    background-color: #f95668;
+    border: 2px solid #f95668
+}

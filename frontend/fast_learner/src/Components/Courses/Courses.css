@@ -1,0 +1,8 @@
+#courses-recom{
+    border-bottom: 7px solid #fa970c;
+    padding-bottom: 30px;
+}
+
+#courses-recom .row div {
+    padding-right: 15px;
+}

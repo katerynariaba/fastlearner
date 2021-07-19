@@ -1,0 +1,128 @@
+div .profile-page{
+    background: #f6f6e9 url('../../Assets/Images/profile-background.jpg') no-repeat center center;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.limiter{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-cabinet{
+    width: 100%;  
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.wrap-cabinet{
+    width: 960px;
+    background: rgba(255, 255, 255, 0.842);
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 70px;
+    margin: 10px;
+}
+
+.avatar img{
+    max-width:300px;
+	height: 200px;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 15px;
+}
+.avatar .file {
+    position: relative;
+    overflow: hidden;
+    margin-top: -20%;
+    width: 300px;
+    border: none;
+    font-size: 15px;
+    font-weight: 400;
+    background: #434649d5;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.avatar{
+    align-items: center;
+}
+
+.avatar .file:hover {
+    background:#202020c9;
+}
+
+.avatar .file input {
+    position: absolute;
+    opacity: 0;
+    right: 0;
+    top: 0;
+}
+
+.profile-head h2{
+    font-weight: 600;
+    font-family: "Roboto";
+    font-size: 20px;
+    text-transform: uppercase;
+    color: rgb(61, 60, 60);
+}
+.profile-head h3{
+    font-size: 15px;
+    color: #0162c9;
+}
+
+
+.container-cabinet .user-description{
+    margin-right: 50px;
+    margin-top: 25px;
+    font-family: "Roboto";
+}
+
+p .user-description{
+    margin-left: 10%;
+}
+
+/*icons*/
+h2.user-social-icons svg{
+    background-color: transparent;
+    border: none;
+    color: #004C70;
+    font-size: 30px;
+}
+
+h2.user-social-icons svg:hover{
+    color: #004c70bb;
+}
+
+.user-social-icons .btn{
+    background-color: transparent;
+    border: none;
+}
+
+.user-social-icons .btn:hover{
+    background-color: transparent;
+    border: none;
+}
+
+/*profile edit button*/
+.profile-edit-btn.btn{
+    border: none;
+    border-radius: 1.5rem;
+    width: 100%;
+    padding: 3%;
+    font-weight: 600;
+    color: #5a5b5ce0;
+    cursor: pointer;
+    background-color: rgba(211, 211, 211, 0.521);
+}

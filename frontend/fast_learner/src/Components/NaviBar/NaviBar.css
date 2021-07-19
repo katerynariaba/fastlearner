@@ -1,0 +1,96 @@
+#main-nav .navbar-main  {
+    height: 100px;
+    background-color: transparent;
+    padding-left: 100px;
+    padding-right: 30px;
+}
+
+#main-nav .navbar-main--light {
+    padding-left: 90px;
+    height: 70px;
+    border-bottom: 2px solid #fa970c;
+    background-color: rgba(255,255,255,1);
+    min-height: 60px;
+    box-shadow: 0 0 10px #fa970c;
+    transition: all 200ms linear;
+}
+
+.navbar-main .navbar-brand .nav-link{
+    color:#004C70;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Playfair_Display";
+}
+
+.navbar-main.navbar-expand .navbar-nav {
+    margin-left: 70px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.navbar-main svg{
+    margin-top: 10px;
+    font-size: 43px;
+}
+
+.navbar-main.navbar-light .navbar-nav .nav-link{
+    color: #004C70;
+    margin: 10px;
+    font-weight: 800;
+    font-family: "Roboto";
+    font-size: 20px;
+    border-radius: 30px;
+    line-height: 1;
+    padding: 5px 15px;
+    text-transform: uppercase;
+}
+
+.navbar-main.navbar-light .navbar-nav .cabinet-login-nav.nav-link,
+.navbar-main.navbar-light .navbar-nav .cabinet-login-nav .nav-link {
+    background-color: #fa970c;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.navbar-main.navbar-light .navbar-nav .cabinet-login-nav.nav-link:hover,
+.navbar-main.navbar-light .navbar-nav .cabinet-login-nav .nav-link:hover {
+    background-color: #ffbb5c;
+    color: white;
+}
+
+.navbar-main.navbar-light .navbar-nav .nav-link:hover{
+    color: white;
+    background-color: #004c70d3;
+}
+
+.navbar-main.navbar-expand .navbar-nav .dropdown-menu {
+    background-color: white;
+}
+
+.navbar-main.navbar-expand .navbar-nav .dropdown-menu .dropdown-item {
+    color: #004C70;
+    font-weight: 450;
+    font-family: "Roboto";
+    font-size: 15px;
+}
+
+.navbar-main.navbar-expand .navbar-nav .dropdown-menu .dropdown-item:hover {
+    background-color: rgba(182, 182, 182, 0.26);
+}
+
+.navbar-main.navbar .nav-brands-icons.navbar-nav .nav-link {
+    border: 0;
+    align-items: center;
+    padding: 1px;
+}
+
+.nav-brands-icons svg {
+    font-size: 30px;
+}
+
+.navbar-main.navbar .nav-brands-icons.navbar-nav .nav-link:hover {
+    background-color: transparent;
+    color: #004c70bb;
+}
+
